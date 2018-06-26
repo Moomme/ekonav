@@ -30,7 +30,9 @@ header {
     margin-right: auto;
     padding-top: 3px;
     padding-bottom: 3px;
-    height: 70px; }
+    height: 70px; 
+    display: flex;
+    justify-content: space-between;}
     header .inner .logo {
       height: 34px;
       cursor: pointer;
@@ -39,6 +41,10 @@ header {
       top: 50%;
       -webkit-transform: translateY(-50%);
       transform: translateY(-50%); }
+    header .inner .home-img {
+      color: red;
+      float: left;
+    }
     header .inner .desktop-nav {
       display: block;
       position: absolute;
@@ -179,8 +185,12 @@ footer {
     }
     */ }
   footer p, footer a, footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
-    color: #FFF; }
+    color: #FFF; 
+    margin: 0
+  }
   footer .main-inner {
+    margin-top: 2%;
+    height: 20%;
     max-width: 1104px; }
   footer p, footer a {
     line-height: 30px;
@@ -202,7 +212,27 @@ footer {
     flex-wrap: wrap;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center; }
+    justify-content: center; 
+    display: inline;
+    text-align: center;}
+  footer .div-container{
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    
+  }
+  footer .inside-footer-div{
+    float: left;
+    width: 23%;
+    padding: 1%;
+    
+  }
+  footer .inside-footer-div ul {
+    padding-left: 0;
+  }
+  footer .inside-footer-div ul li{
+    list-style-position: inside;
+  }
   footer .col {
     width: calc(23.33333% - 15px); }
     footer .col p {

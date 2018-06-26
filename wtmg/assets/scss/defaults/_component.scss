@@ -1,0 +1,28 @@
+.component{
+    padding-top: $component;
+    padding-bottom: $component;
+    background: #FFF;
+}
+#component_0{
+    margin-top: $header-margin;
+    padding-top: 0;
+} 
+.component-h{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 70px;
+
+    font-size: 40px;
+    color: $black;
+
+    &.h-text{
+        margin-bottom: 25px;
+    }
+}
+.component-sub-h{
+    margin-top: 0;
+    margin-bottom: 70px;
+    text-align: center;
+    color: $black;
+
+}

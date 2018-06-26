@@ -1,0 +1,14 @@
+html{
+    background-color: #000;
+}
+@media (max-width: $tablet-breakpoint){ 
+    .mobile-hide, 
+    .tablet-hide{
+        display: none;
+    }
+}
+@media (min-width: $tablet-breakpoint){
+    .desktop-hide{
+        display: none;
+    }
+}

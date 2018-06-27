@@ -24,7 +24,7 @@ wp_reset_query();
         <div class="flex-container">
             <div class="div-container">
                 <div class="inside-footer-div">
-                    <img src="http:/159.65.83.88/ekonav/wp-content/themes/wtmg/assets/images/logo.png" alt="LOGO">
+                    <img class="footerlogo" src="/ekonav/wp-content/themes/wtmg/assets/images/logo-placeholder.png" alt="LOGO"> </p>
                 </div>
                 <div class="inside-footer-div">
                     <h5>Hem</h5>
@@ -53,7 +53,7 @@ wp_reset_query();
                 </ul>
                 </div>
             </div>
-            <div class="col logo-section">
+            <?php /*<div class="col logo-section">
                 <div class="logo-container">
                     <img class="logo" src="<?= $logosrc?>" alt="Coloran" onclick="logoLink('<?= pll_home_url(); ?>')">
                 </div>
@@ -81,6 +81,6 @@ wp_reset_query();
                 <p class="fcol cr"><?= $footer['copyright']; ?></p>
                 <p class="fcol owned"><?= $footer['owned']; ?></p>
             </div>
-        </div>
+        </div> */?>
     </div>
 </footer>

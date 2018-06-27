@@ -24,7 +24,7 @@ wp_reset_query();
         <div class="flex-container">
             <div class="div-container">
                 <div class="inside-footer-div">
-                    <img src="http:/159.65.83.88/ekonav/wp-content/themes/wtmg/assets/images/logo.png" alt="LOGO">
+                    <img src="client-logo-placeholder.png" alt="LOGO">
                 </div>
                 <div class="inside-footer-div">
                     <h5>Hem</h5>

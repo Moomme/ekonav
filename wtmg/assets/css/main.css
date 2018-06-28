@@ -1,3 +1,6 @@
+body{
+  background-color: #3e5058;
+}
 header {
   width: 100%;
   position: fixed;
@@ -176,8 +179,7 @@ header .ekonav{
     
 .component{
   margin: auto;
-  margin: 0% 13%;
-  height:55%;
+  margin: 0% 15%;
   padding: 0 !important;
 }
 
@@ -191,7 +193,7 @@ header .ekonav{
 } }
 
 .top-image{
-  padding-bottom: 0 !important;
+  height: 48%;
 }
 
 .hero-image-div{
@@ -216,17 +218,22 @@ header .ekonav{
   letter-spacing: 2px;
 }
 
+.tjanster-component{
+  height: 60%;
+  overflow: auto;
+}
+
 .tjanster{
   text-align: center;
 }
 
 .tjanster h3{
-  margin: 0;
+  margin-bottom: 0;
   padding-top: 1%;
 }
 
 .tjanster h5{
-  margin: 0;
+  margin-top: 0;
 }
 .tjanster hr{
   border-color: greenyellow;
@@ -237,14 +244,14 @@ header .ekonav{
 
 .align-boxes{
   margin: auto;
-  width: 70%;
+  width: 80%;
 }
 
 .info-box {
   float: left;
   margin: 1%;
   height: 70%;
-  width: 30%;
+  width: 31%;
   overflow: hidden;
   -webkit-box-shadow: 0px 2px 14px -1px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 2px 14px -1px rgba(0,0,0,0.75);
@@ -308,8 +315,107 @@ header .ekonav{
   height: 50%;
 }
 
+.info{
+  background-color: black !important;
+  height: 33%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.info-inner h2{
+  margin-top: 0;
+  font-weight: 600;
+  font-size: 200%;
+  color: white;
+}
+
+@media (max-width: 1760px) and (min-width: 1600px){
+  .info-inner h2{
+    font-size: 180%
+  }
+}
+
+@media (max-width: 1360px) and (min-width: 1300px){
+  .info-inner h2{
+    font-size: 180%
+  }
+}
+
+@media (max-width: 1230px){
+  .info-inner h2{
+    font-size: 180%;
+  }
+}
+
+.button{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px 10px;
+  border: solid 1px;
+  border-radius: 50px;
+}
+
+.contact{
+  height: 10%;
+  overflow: hidden;
+  background-color:#5e8291 !important;
+  
+}
+
+.contact-inner{
+  width: 70%;
+  margin: auto;
+}
+
+.contact-inner h3{
+  margin: 0;
+}
+
+.contact-input{
+  float: left;
+  color: white !important;
+}
+
+.contact-input h3{
+  width: 17%;
+}
+
+.contact input{
+  background: transparent;
+  border: none;
+}
+
+.input-elements{
+  margin: 0 3%;
+  padding-top: 0.5%;
+  float: left;
+  width: 60%
+}
+
+.input-element{
+  margin: 0 1%;
+  width: 30%;
+  float: left;
+}
+
+.input-element hr{
+  margin-top: 0;
+}
+
+*:focus {
+  outline: none;
+  color: white;
+}
+
+.contact-input.button{
+  width: 15%;
+  font-size: 80%;
+  padding: 0;
+}
+
 footer {
-  background: #000;
+  background: transparent;
   color: #FFF;
   padding-top: 40px;
   padding-bottom: 30px;

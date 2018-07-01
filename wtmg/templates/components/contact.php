@@ -1,4 +1,4 @@
-<div class="contact-inner text-over-image">
+<div class="contact-inner center-text">
     <h3 class="contact-input">Kontakta oss: </h3>
     <div class="input-elements">
         <div class="input-element">
@@ -14,5 +14,7 @@
             <hr>
         </div>
     </div>
-    <a class="button contact-input" href="">Skicka</a>
+    <div class="contact-input">
+        <a class="button" href="">Skicka</a>
+    </div>
 </div>

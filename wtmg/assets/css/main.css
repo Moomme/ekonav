@@ -242,7 +242,7 @@ header .ekonav{
 }
 
 .tjanster-component{
-  height: 54%;
+  height: 65%;
   overflow: auto;
 }
 
@@ -251,7 +251,7 @@ header .ekonav{
 }
 
 .aktuellt{
-  height: 50%;
+  height: 60%;
   overflow: auto;
 }
 
@@ -286,7 +286,7 @@ header .ekonav{
 
 .align-boxes{
   margin: auto;
-  width: 50%;
+  width: 65%;
   margin-top: 2%
 }
 
@@ -304,7 +304,7 @@ header .ekonav{
 
 .info-box {
   float: left;
-  margin: 2%;
+  margin: 2.16%;
   height: 65%;
   width: 29%;
   overflow: hidden;
@@ -318,6 +318,8 @@ header .ekonav{
   box-shadow: none;
   height: 60%;
 }
+
+
 
 .picbox-big{
   width: 64%;
@@ -372,45 +374,61 @@ header .ekonav{
   float: left;
 }
 
+@media (max-width: 390px){
+  .info-box a{
+    margin-top: -5%;
+  }
+}
+
 @media (max-width: 1100px) {
   .info-box {
     float: none;
-    width: 50%;
+    width: 35%;
     height: 28%;
     margin: auto;
     margin-top: 2%;
     margin-bottom: 2%;
   }
-  .tjanster-component, .aktuellt{
+  .tjanster-component{
     height: 155%;
+  }
+
+  .aktuellt{
+    height: 140%;
   }
 }
 
 @media (max-width: 850px) {
   .info-box{
-    width: 70%;
+    width: 55%;
     margin-top: 5%;
     margin-bottom: 5%;
   }
   
-  .tjanster-component, .aktuellt{
+  .tjanster-component{
     height: 200%;
 
+  }
+
+  .picbox.info-box{
+    height: 27%;
+  }
+  .aktuellt{
+    height: 170%;
   }
 }
 
 @media (max-width: 500px) {
   .info-box{
-    width: 100%;
+    width: 80%;
+    height: 28%;
     margin-top: 5%;
     margin-bottom: 5%;
   }
-  
-  .tjanster-component, .aktuellt{
-    height: 180%;
-  }
 
- 
+  .aktuellt{
+    height: 160%;
+  }
 }
 
 .info-box h5{
@@ -431,7 +449,6 @@ header .ekonav{
 }
 
 .info{
-  background-color: black !important;
   height: 47%;
   overflow: hidden;
   text-align: center;
@@ -449,7 +466,7 @@ header .ekonav{
     font-size: 180%
   }
 }
-
+ 
 @media (max-width: 1360px) and (min-width: 1300px){
   .info-inner h2{
     font-size: 180%
@@ -459,6 +476,16 @@ header .ekonav{
 @media (max-width: 1230px){
   .info-inner h2{
     font-size: 180%;
+  }
+
+  .info-inner .center-text{
+    width: 90%;
+  }
+}
+
+@media (max-width: 500px){
+  .info-inner .center-text{
+    width: 100%;
   }
 }
 
@@ -484,6 +511,24 @@ header .ekonav{
   height: 45%;
 }
 
+@media (max-width: 500px){
+  .sub-tjanster-inner .align-boxes .info-box{
+    height: 40%;
+    width: 70%;
+  }
+
+  .sub-tjanster-inner .align-boxes .info-box p{
+    display: none;
+    }
+
+  .sub-tjanster-inner .align-boxes .info-box a{
+    margin-top: -28%;
+  }
+
+  .sub-tjanster-inner .align-boxes .info-box img{
+    height: 65%;
+  }
+}
 
 .contact{
   height: 14%;
@@ -514,6 +559,7 @@ header .ekonav{
 .contact input{
   background: transparent;
   border: none;
+  text-align: left;
 }
 
 .input-elements{
@@ -550,8 +596,27 @@ header .ekonav{
     width: 100%;
     float: none;
   }
+
+  .input-element{
+    float: none;
+    width: 50%;
+    margin: auto;
+  }
+
+  .input-element input{
+    width: 100%;
+    margin-left: 1%;
+    float: left; 
+  }
+
+  .contact-input-btn{
+    margin-top: 3%;
+    width: 50%;
+    margin: auto;
+  }
+
   .contact {
-    height: 15%;
+    height: 25%;
   }
 }
 
@@ -570,6 +635,13 @@ header .ekonav{
   .input-element{
     width: 70%;
     margin-left: 15%; 
+  }
+}
+
+@media (max-width: 500px){
+  .input-element, .contact-input-btn{
+    width: 90%;
+    margin: auto;
   }
 }
 
@@ -620,6 +692,7 @@ header .ekonav{
     width: 50%;
     margin: auto;
     float: none;
+    margin-bottom: 4%;
   }
 } 
 
@@ -651,6 +724,15 @@ header .ekonav{
   margin: 1%;
 }
 
+@media (max-width: 1100px){
+  .social-icons{
+    width: 40%;
+  }
+  .social-inner h3{
+    font-size: 120%;
+  }
+}
+
 @media (max-width: 850px) {
   .social-media{
     height: 20%;
@@ -664,6 +746,9 @@ header .ekonav{
     width: 70%;
     margin: auto;
     margin-top: 2%;
+  }
+  .social-icons img{
+    float: none;
   }
 }
 
@@ -723,8 +808,26 @@ header .ekonav{
   padding-top: 1%;
 }
 
+@media (max-width: 1600px){
+  .single-inner{
+    width: 80%;
+  }
+}
+
+@media (max-width: 1100px){
+  .single-inner{
+    width: 90%;
+  }
+  
+}
+
+.single-text hr{
+  border-color: greenyellow;
+  width: 20%;
+}
+
 .single-topimg{
-  width: 64%;
+  width: 73%;
   height: 28%;
   margin: 1%;
   float: left;
@@ -771,18 +874,22 @@ header .ekonav{
 .single-contact-btn{
   padding: 0 3%;
   width: 90%;
-  height: 13%;
+  height: 10%;
   margin: auto;
 }
 
+.single.title{
+  width: auto;
+}
+
 .single-text-tjanst{
-  width: 38%;
+  width: 47%;
   margin: 1%;
   float: left;
 }
 
 .single-text-aktuellt{
-  width: 64%;
+  width: 73%;
   margin: 1%;
   float: left;
 }

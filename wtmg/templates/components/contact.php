@@ -6,7 +6,7 @@
             <hr>
         </div>
         <div class="input-element">
-            <input type="text" placeholder="Telefonnummer">
+            <input type="text" align="left" placeholder="Telefonnummer">
             <hr>
         </div>
         <div class="input-element">

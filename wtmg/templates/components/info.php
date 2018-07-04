@@ -1,7 +1,13 @@
+<?php
+    $text = get_sub_field('text');
+    $btn_text = get_sub_field('btn_text');
+    $img = get_sub_field('background_image'); 
+?>
+
 <div class="info-inner">
-    <img class="hero-image" src="/ekonav/wp-content/themes/wtmg/assets/images/hero-placeholder.jpg" alt="" style="height:100%">
+    <img class="background-image" src="<?= $img ?>" alt="" style="width:100%">
     <div class="center-text">
-        <h2>Din företagsekonomi är vår passion</h2>
-        <a class="button" href="">Se vad vi kan göra för dig</a>
+        <h2><?= $text ?></h2>
+        <a class="button" href=""><?= $btn_text ?></a>
     </div>
 </div>

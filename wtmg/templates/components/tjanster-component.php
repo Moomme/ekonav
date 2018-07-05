@@ -5,7 +5,7 @@
 
         <div class="align-boxes">
             <div class="info-box">
-                <img src="/ekonav/wp-content/themes/wtmg/assets/images/infobox1.jpeg" alt="">
+                <img src="/ekonav/wp-content/themes/wtmg/assets/images/infobox3.jpg" alt="">
                 <h5>Hej</h5>
                 <hr/>
                 <div class="info-text">
@@ -16,7 +16,7 @@
                 <a href="/ekonav/index.php/single-tjanst/">Läs mer &#8680</a>
             </div>
             <div class="info-box">
-                <img src="/ekonav/wp-content/themes/wtmg/assets/images/picbox.jpg" alt="">
+                <img src="/ekonav/wp-content/themes/wtmg/assets/images/infobox2.jpg" alt="">
                 <h5>Hej</h5>
                 <hr/>
                 <div class="info-text">
@@ -27,7 +27,7 @@
                 <a href="/ekonav/index.php/single-tjanst/">Läs mer &#8680</a>
             </div>
             <div class="info-box">
-                <img src="/ekonav/wp-content/themes/wtmg/assets/images/infobox1.jpeg" alt="">
+                <img src="/ekonav/wp-content/themes/wtmg/assets/images/infobox3.jpg" alt="">
                 <h5>Hej</h5>
                 <hr/>
                 <div class="info-text">

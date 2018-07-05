@@ -242,7 +242,7 @@ header .ekonav{
 }
 
 .tjanster-component{
-  height: 65%;
+  height: 75%;
   overflow: auto;
 }
 
@@ -251,7 +251,7 @@ header .ekonav{
 }
 
 .aktuellt{
-  height: 60%;
+  height: 70%;
   overflow: auto;
 }
 
@@ -290,15 +290,28 @@ header .ekonav{
   margin-top: 2%
 }
 
+
+.subaktuellt-inner .align-boxes {
+  width: 58%
+}
+
 @media (max-width: 1500px){
   .align-boxes{
     width: 75%;
+  }
+
+  .subaktuellt-inner .align-boxes {
+    width: 70%
   }
 }
 
 @media (max-width: 1300px){
   .align-boxes{
     width: 90%;
+  }
+
+  .subaktuellt-inner .align-boxes {
+    width: 85%
   }
 }
 
@@ -323,7 +336,7 @@ header .ekonav{
 
 .picbox-big{
   width: 64%;
-  height: 30%;
+  height: 40%;
   margin: 1%;
   text-align: left;
   overflow: hidden;
@@ -331,8 +344,8 @@ header .ekonav{
 }
 
 .picbox-big img{
-  width: 100%;
-  min-height: 100%;
+  min-width: 100%;
+  height: 100%;
 }
 
 .picbox-big .picbox-text{
@@ -352,15 +365,46 @@ header .ekonav{
 }
 
 .subaktuellt_1, .subaktuellt_2{
-  min-height: 70%;
+  min-height: 80%;
   overflow: auto;
 }
 
 .subaktuellt-inner .align-boxes .picbox{
   width: 31%;
-  height: 30%;
+  height: 40%;
   float: left;
   margin: 1%;
+}
+
+@media (max-width:  1100px){
+  .subaktuellt-inner .align-boxes .picbox, .picbox-big{
+    float: none;
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .picbox-big .picbox-text{
+    margin-top: -30%;
+  }
+
+  .remove{
+    display: none;
+  }
+}
+
+@media (max-width:  850px){
+  .subaktuellt-inner .align-boxes .picbox, .picbox-big{
+    width: 80%;
+  }
+}
+
+@media (max-width:  500px){
+  .subaktuellt-inner .align-boxes .picbox, .picbox-big{
+    width: 90%;
+  }
 }
 
 .info-text {
@@ -754,7 +798,7 @@ header .ekonav{
 
 
 .persons{
-  height: 37%;
+  height: 45%;
   overflow: auto;
 }
 
@@ -766,7 +810,7 @@ header .ekonav{
 .person-box{
   width: 29%;
   height: 80%;
-  margin: 2%;
+  margin: 2.16%;
   float: left;
   -webkit-box-shadow: 0px 2px 14px -1px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 2px 14px -1px rgba(0,0,0,0.75);
@@ -808,19 +852,6 @@ header .ekonav{
   padding-top: 1%;
 }
 
-@media (max-width: 1600px){
-  .single-inner{
-    width: 80%;
-  }
-}
-
-@media (max-width: 1100px){
-  .single-inner{
-    width: 90%;
-  }
-  
-}
-
 .single-text hr{
   border-color: greenyellow;
   width: 20%;
@@ -828,7 +859,7 @@ header .ekonav{
 
 .single-topimg{
   width: 73%;
-  height: 28%;
+  height: 32%;
   margin: 1%;
   float: left;
 }
@@ -841,28 +872,31 @@ header .ekonav{
 .single-contact{
   background-color: #5e8291;
   width: 23%;
-  height: 28%;
+  height: 32%;
   margin: 1%;
   float: left;
 }
 
 .single-contact h3{
   color: white;
-  font-size: 120%;
+  font-size: 1.5vw;
   margin-top: 4%;
-  margin-left: 4%
+  margin-left: 4%;
+  height: 10%;
 }
 
 .single-contact p{
   color: white;
-  font-size: 90%;
+  font-size: 0.9vw;
   margin-left: 4%;
+  height: 15%;
 }
 
 .single-contact .input-element{
   width: 90%;
   margin: 1% 4%;
   float: none;
+  height: 10%;
 }
 
 .single-contact .input-element input{
@@ -915,6 +949,58 @@ header .ekonav{
 
 .single-more hr{
   border-color: greenyellow;
+}
+@media (max-width: 1600px){
+  .single-inner{
+    width: 70%;
+  }
+}
+
+@media (max-width: 1300px){
+  .single-inner{
+    width: 80%;
+  }
+}
+
+@media (max-width: 1100px){
+  .single-inner{
+    width: 90%;
+  }
+  
+  .single-contact p{
+    font-size: 1.2vw;
+  }
+
+  .single-contact h3{
+    font-size: 2vw
+  }
+}
+@media (max-width: 850px) {
+  .single-topimg{
+    float: none;
+    width: 100%;
+  }
+
+  .single-contact{
+    width: 70%;
+    float: none;
+    min-height: 36%;
+    overflow: auto;
+    margin: auto;
+  }
+
+  .single-contact p{
+    font-size: 2.7vw;
+    
+  }
+
+  .single-contact h3{
+    font-size: 4vw
+  }
+  .single-text{
+    float: none;
+    width: 90%;
+  }
 }
 
 .picbox-tjanst{

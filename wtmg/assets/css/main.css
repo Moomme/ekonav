@@ -798,7 +798,7 @@ header .ekonav{
 
 
 .persons{
-  height: 45%;
+  min-height: 45%;
   overflow: auto;
 }
 
@@ -809,7 +809,7 @@ header .ekonav{
 
 .person-box{
   width: 29%;
-  height: 80%;
+  height: 40%;
   margin: 2.16%;
   float: left;
   -webkit-box-shadow: 0px 2px 14px -1px rgba(0,0,0,0.75);
@@ -836,7 +836,29 @@ header .ekonav{
   width: 50%;
 }
 
-.single-tjanst, .single-aktuellt{
+@media (max-width: 850px) {
+  .person-box{
+    float: none;
+    width: 50%;
+    height: 40%;
+    margin: 2.16% auto;
+  }
+}
+
+@media (max-width: 500px){
+  .person-box{
+    width: 70%;
+  }
+}
+
+@media (max-width: 350px) {
+  .person-box{
+    width: 75%;
+    height: 50%;
+  }
+}
+
+.single-tjanst, .single-aktuellt, .integritet{
   margin-top: 4% !important;
   width: 100%;
   background-color: white;
@@ -978,20 +1000,20 @@ header .ekonav{
 @media (max-width: 850px) {
   .single-topimg{
     float: none;
-    width: 100%;
+    width: 90%;
+    margin: 1% auto;
   }
 
   .single-contact{
     width: 70%;
     float: none;
-    min-height: 36%;
+    min-height: 20%;
     overflow: auto;
     margin: auto;
   }
 
   .single-contact p{
-    font-size: 2.7vw;
-    
+    font-size: 2vw;
   }
 
   .single-contact h3{
@@ -999,8 +1021,24 @@ header .ekonav{
   }
   .single-text{
     float: none;
-    width: 90%;
+    width: 80%;
+    margin: auto;
+    margin-top: 3%;
   }
+
+  .single-inner .person-box{
+    width: 60%;
+    height: 45%;
+    float: none;
+    margin: auto;
+    
+  }
+
+  .single-more{
+    width:98%;
+    margin: auto;
+  }
+
 }
 
 .picbox-tjanst{
@@ -1026,9 +1064,28 @@ header .ekonav{
   color: white;
 }
 
+
 .picbox-aktuellt .picbox-text{
   width: 80%;
   margin-top: -35%;
+}
+
+@media (max-width: 850px) {
+  .single-more-title, .picbox-tjanst{
+    width: 31%;
+    margin: 1%;
+    float: left;
+  }
+
+  .picbox-aktuellt .picbox-text{
+    margin-top: -10%;
+  }
+}
+
+@media (max-width: 500px){
+  .picbox-aktuellt .picbox-text{
+    margin-top: -30%;
+  }
 }
 
 footer {

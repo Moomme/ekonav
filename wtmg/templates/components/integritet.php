@@ -23,7 +23,7 @@
         </div>
     </div>
     <div class="single-text single-text-aktuellt">
-        <h2>Affärsutveckling</h2>
+        <h2>Integritetspolicy</h2>
         <hr align="left">
         <h5 style="margin: 2% 0;">2018-01-05</h5>
         <p> 
@@ -36,21 +36,17 @@
         </p>
     </div>
     <div class="single-more">
-        <a href=""><h3>Alla Nyheter &#8680</h3></a>
-        <hr>
-        <div class="picbox-aktuellt">
-            <img class="background-image" src="/ekonav/wp-content/themes/wtmg/assets/images/picbox2.jpg" alt="">
-            <div class="picbox-text">
-                <h6>2018-10-14</h6>
-                <a href=""><h5>The Key to Your Motivation and Success</h5></a>
-            </div>       
+        <div class="single-more-title">
+            <a href=""><h3>Se vad vi kan hjälpa dig med &#8680</h3></a>
+            <hr>
         </div>
-        <div class="picbox-aktuellt">
-            <img class="background-image" src="/ekonav/wp-content/themes/wtmg/assets/images/picbox3.jpg" alt="">
-            <div class="picbox-text">
-                <h6>2018-10-14</h6>
-                <a href=""><h5>The Key to Your Motivation and Success</h5></a>
-            </div>       
+        <div class="picbox-tjanst">
+            <img class="background-image" src="/ekonav/wp-content/themes/wtmg/assets/images/picbox.jpg" alt="">
+            <a href=""><h5>Bokföring  &#8680</h5></a>
+        </div>
+        <div class="picbox-tjanst">
+            <img class="background-image" src="/ekonav/wp-content/themes/wtmg/assets/images/Rectangle2.png" alt="">
+            <a href=""><h5>Uppstart  &#8680</h5></a>
         </div>
     </div>
 </div>

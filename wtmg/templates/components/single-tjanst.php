@@ -44,8 +44,10 @@
         </div>
     </div>
     <div class="single-more">
-        <a href=""><h3>Se vad vi kan hjälpa dig med &#8680</h3></a>
-        <hr>
+        <div class="single-more-title">
+            <a href=""><h3>Se vad vi kan hjälpa dig med &#8680</h3></a>
+            <hr>
+        </div>
         <div class="picbox-tjanst">
             <img class="background-image" src="/ekonav/wp-content/themes/wtmg/assets/images/picbox.jpg" alt="">
             <a href=""><h5>Bokföring  &#8680</h5></a>

@@ -27,25 +27,25 @@ wp_reset_query();
                     <img class="footerlogo" src="/ekonav/wp-content/themes/wtmg/assets/images/logo-placeholder.png" alt="LOGO"> </p>
                 </div>
                 <div class="inside-footer-div">
-                    <h5>Hem</h5>
+                    <a href="/ekonav/index.php/hem/"><h5>Hem</h5></a>
                     <ul style="list-style-type:none">
-                        <li> <a href="">Tjänster</a> </li>
-                        <li> <a href="">Aktuellt</a> </li>
-                        <li> <a href="">Kontakt</a> </li>
-                        <li> <a href="">Integritetspolicy</a> </li>
+                        <li> <a href="/ekonav/index.php/tjanster/">Tjänster</a> </li>
+                        <li> <a href="/ekonav/index.php/aktuellt/">Aktuellt</a> </li>
+                        <li> <a href="/ekonav/index.php/kontakt/">Kontakt</a> </li>
+                        <li> <a href="/ekonav/index.php/integritetspolicy/">Integritetspolicy</a> </li>
                     </ul>
                 </div>
                 <div class="inside-footer-div">
-                    <h5>Tjänster</h5>
+                    <a href="/ekonav/index.php/tjanster/"><h5>Tjänster</h5></a>
                     <ul style="list-style-type:none">
-                        <li> <a href="">Bokföring</a> </li>
-                        <li> <a href="">Redovisning</a> </li>
-                        <li> <a href="">Afffärsutveckling</a> </li>
-                        <li> <a href="">Bokslut</a> </li>
+                        <li> <a href="/ekonav/index.php/single-tjanst/">Bokföring</a> </li>
+                        <li> <a href="/ekonav/index.php/single-tjanst/">Redovisning</a> </li>
+                        <li> <a href="/ekonav/index.php/single-tjanst/">Affärsutveckling</a> </li>
+                        <li> <a href="/ekonav/index.php/single-tjanst/">Bokslut</a> </li>
                     </ul>
                 </div>
                 <div class="inside-footer-div">
-                    <h5>Kontakta oss</h5>
+                    <a href="/ekonav/index.php/kontakt/"><h5>Kontakta Oss</h5></a>  
                     <ul style="list-style-type:none">
                     <li> <a href="">Adress</a> </li>
                     <li> <a href="">Tel</a> </li>

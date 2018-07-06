@@ -4,7 +4,7 @@ $logosrc = get_option_field('logo');
 <header class="ekonav">
     <div class="inner">
         <div class="home-img">
-            <a href="/ekonav">
+            <a href="/ekonav/index.php/hem/">
                 <p> <img class="logo" src="/ekonav/wp-content/themes/wtmg/assets/images/logo-placeholder.png" alt="LOGO"> </p>
             </a>
         </div>

@@ -1,0 +1,57 @@
+.contact-box{
+    h3{
+        margin: 0;
+    }
+    p{
+
+    }
+    form{
+        margin: 0;
+    }
+    .form-item{
+        width: 100%;
+        margin-bottom: 8px;
+        label{
+            font-size: 13px;
+        }
+        input[type="text"]{
+            width: 100%;
+            color: #FFF;
+            background: transparent;
+
+            -webkit-appearance: none;
+            -moz-appearance:    none;
+            appearance:         none;
+            border: none;
+            box-shadow: none;
+            padding-bottom: 2px;
+            border-bottom: 1px solid #FFF;
+        }
+       
+    }
+    input[type="submit"]{
+        margin-top: 10px;
+        color: #FFF;
+        background: transparent;
+
+        -webkit-appearance: none;
+        -moz-appearance:    none;
+        appearance:         none;
+        border: none;
+        box-shadow: none;
+
+        border: 1px solid #FFFFFF;
+        border-radius: 100px;
+
+        /* Skicka: */
+        font-size: 14px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        text-align: center;
+
+        padding: 6px 50px;
+
+        cursor: pointer;
+        display: block;
+    }
+}

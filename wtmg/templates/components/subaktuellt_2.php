@@ -1,52 +1,23 @@
-<div class="subaktuellt-inner">
-    <div class="align-boxes">
-        <div class="picbox info-box ">
-            <img class="picbox-img" src="/ekonav/wp-content/themes/wtmg/assets/images/picbox2.jpg" alt="">
-            <div class="picbox-text">
-                <h6>2018-10-14</h6>
-                <hr>
-                <a href=""><h3> Hej på dig det här är ett test</h3></a>
-            </div>
+<?php
+$args = array(
+    'post_type' => 'post',
+    'posts_per_page' => 24,
+    'offset' => 5,
+);
+$query = new WP_Query($args);
+
+?>
+<div class="main-inner">
+    <div class="grid-3">
+        <?php
+        while($query->have_posts()) : $query->the_post();
+       ?>
+        <div class="medium-size grid-item">
+            <?php echo get_template_part('templates/components/news-card'); ?>
         </div>
-        <div class="picbox info-box ">
-            <img class="picbox-img" src="/ekonav/wp-content/themes/wtmg/assets/images/picbox4.jpg" alt="">
-            <div class="picbox-text">
-                <h6>2018-10-14</h6>
-                <hr>
-                <a href=""><h3> Hej på dig det här är ett test</h3></a>
-            </div>
-        </div>
-        <div class="picbox info-box ">
-            <img class="picbox-img" src="/ekonav/wp-content/themes/wtmg/assets/images/picbox3.jpg" alt="">
-            <div class="picbox-text">
-                <h6>2018-10-14</h6>
-                <hr>
-                <a href=""><h3> Hej på dig det här är ett test</h3></a>
-            </div>
-        </div>
-        <div class="picbox info-box ">
-            <img class="picbox-img" src="/ekonav/wp-content/themes/wtmg/assets/images/picbox3.jpg" alt="">
-            <div class="picbox-text">
-                <h6>2018-10-14</h6>
-                <hr>
-                <a href=""><h3> Hej på dig det här är ett test</h3></a>
-            </div>
-        </div>
-        <div class="picbox info-box ">
-            <img class="picbox-img" src="/ekonav/wp-content/themes/wtmg/assets/images/picbox2.jpg" alt="">
-            <div class="picbox-text">
-                <h6>2018-10-14</h6>
-                <hr>
-                <a href=""><h3> Hej på dig det här är ett test</h3></a>
-            </div>
-        </div>
-        <div class="picbox info-box ">
-            <img class="picbox-img" src="/ekonav/wp-content/themes/wtmg/assets/images/picbox4.jpg" alt="">
-            <div class="picbox-text">
-                <h6>2018-10-14</h6>
-                <hr>
-                <a href=""><h3> Hej på dig det här är ett test</h3></a>
-            </div>
-        </div>
+        <?php
+        endwhile;
+        wp_reset_query();
+        ?>
     </div>
 </div>

@@ -1,5 +1,16 @@
 html{
-    background-color: #000;
+}
+.grid-3{
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    .grid-item{
+        grid-column: span 1;
+    }
+    .grid-item-large{
+        grid-column: span 2;
+    }
+
 }
 @media (max-width: $tablet-breakpoint){ 
     .mobile-hide, 

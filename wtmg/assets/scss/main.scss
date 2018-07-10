@@ -1,27 +1,33 @@
 //General
   @import 'variables';
   @import 'mixins';
+  @import 'misc';
 
 //layout
   @import 'layout/header';
   @import 'layout/footer';
   @import 'layout/main';
+  @import 'layout/info-page';
+  @import 'layout/sidebar';
 
 //Defaults 
   @import 'defaults/main';
   @import 'defaults/error';
-  @import 'defaults/component';
+  @import 'defaults/component'; 
   @import 'defaults/typography';
 
 //Components
-  @import 'components/hero-image';
-  @import 'components/text-simple';
-  @import 'components/image-simple';
-  @import 'components/products';
-  @import 'components/single-product';
-  @import 'components/single-product-modal';
-  @import 'components/half-grid';
-  @import 'components/logowall';
-  @import 'components/video-component';
-  @import 'components/cta';
+  @import 'components/news-card';
+  @import 'components/service-card';
 
+  @import 'components/aktuellt';
+  @import 'components/tjanster-component';
+  @import 'components/social-media';
+  @import 'components/about-us';
+  @import 'components/sub-tjanster';
+  @import 'components/small-box';
+  @import 'components/subpage-top';
+  @import 'components/person-card';
+  @import 'components/persons';
+  @import 'components/contact-box';
+  @import 'components/contact';

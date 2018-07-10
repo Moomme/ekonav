@@ -1,0 +1,36 @@
+.info-page{
+    display: flex !important;
+    flex-direction: row;
+    margin-top: 88px;
+    margin-bottom: 40px;
+    .content-side{
+        width: 100%;
+        max-width: 650px;
+        .header-image{
+            width: 100%;
+            height: 280px;
+
+            object-fit: cover;
+            overflow: hidden;
+        }
+        .content{
+            .text{
+
+            }
+        }
+    }
+    .sidebar{
+        flex: 1;
+        margin-left: 20px;
+    }
+}
+@media (max-width: 972px){
+    .info-page{
+        .content-side{
+            max-width: unset !important;
+            .header-image{
+                width: 100%;
+            }
+        }
+    }
+}

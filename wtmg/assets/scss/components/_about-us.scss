@@ -1,0 +1,39 @@
+.about-us{
+    background-color:#5e8291 !important;
+    padding: 50px 0;
+  }
+  
+  
+  .about-us-inner{
+    width: 60%;
+    height: auto;
+    margin: auto  
+  }
+  
+  .about-text{
+    width: 70%;
+    float: left;
+    margin: 0 10px;
+    p{
+      margin: 0;
+    }
+  }
+  
+  .about-text p{
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 19px;
+  }
+  
+  .about-img{
+    width: 25%;
+    float: left;
+    margin: 0 1%;
+  }
+  @media (max-width: 694px){
+    .about-img{
+      width: 50%;
+      margin-top: 20px;
+    }
+  }

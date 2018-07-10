@@ -1,0 +1,29 @@
+.aktuellt{
+    padding: 50px 0;
+    .main-inner{
+       
+    }
+}
+.header-section{
+    text-align: center;
+    .c-header{
+        font-size: 24px;
+        color: #000000;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 33px;
+    
+        padding: 0 15px;
+        border-bottom: 1px solid $green;
+        display: inline-block;
+    }
+    .read-more{
+        display: block;
+        /* Visa alla nyheter: */
+        font-size: 20px;
+        color: #000000;
+        letter-spacing: 0;
+        margin-top: 10px;
+        margin-bottom: 31px;
+    }
+}

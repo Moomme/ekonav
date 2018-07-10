@@ -1,6 +1,7 @@
 //Colors
 $black: #333333;
 $white: #FFF;
+$green: #ADCB08;
 
 //Breakpoints
   $tablet-breakpoint: 850px;
@@ -9,17 +10,10 @@ $white: #FFF;
 
 //Widths
   $main-w: 100%;
-  $main-inner-w: 1104px; 
+  $main-inner-w: 940px; 
 
-  $header-inner-w: 1104px;
+  $header-inner-w: calc(100% - 62px);
 
-  $products-inner-w: 1104px;
-
-  $text-inner-w: 801px;
-
-  $video-width: 1104px;
-  $half-grid-inner-w: 1104px;
-  $logowall-inner-w: 1104px;
   $footer-inner-w: 1104px;
 
 
@@ -27,13 +21,13 @@ $white: #FFF;
 
 
 //Constant sizes
-  $component: 72px;
+  $component: 0px;
   $header-margin: 0px;
 
 
 
 //Fonts
   $font-family: 'Avenir', sans-serif;
-  $font-family-header: 'Glacial-Indifference', sans-serif;
+  $font-family-header: 'Avenir', sans-serif;
   $bold-weight: 400;
   $text-weight: 400;

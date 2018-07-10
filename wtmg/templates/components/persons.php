@@ -1,34 +1,17 @@
-<div class="persons-inner">
-    <div class="align-boxes">
-        <div class="person-box">
-            <img src="/ekonav/wp-content/themes/wtmg/assets/images/infobox2.jpg" alt="">
-            <div class="person-info">
-                <h5 class="name">Namn</h5>
-                <hr>
-                <p class="position">Chef</p>
-                <p class="mail">chef@mail.se</p>
-                <p class="tel">073 444 44 44</p>
-            </div>
+<?php
+?>
+<div class="main-inner">
+   
+    <div class="grid-3">
+        <?php
+        while(have_rows('persons')){
+            the_row('persons');
+        ?>
+        <div class="medium-size grid-item">
+            <?php echo get_template_part('templates/components/person-card'); ?>
         </div>
-        <div class="person-box">
-            <img src="/ekonav/wp-content/themes/wtmg/assets/images/infobox3.jpg" alt="">
-            <div class="person-info">
-                <h5 class="name">Namn</h5>
-                <hr>
-                <p class="position">Chef</p>
-                <p class="mail">chef@mail.se</p>
-                <p class="tel">073 444 44 44</p>
-            </div>
-        </div>
-        <div class="person-box">
-            <img src="/ekonav/wp-content/themes/wtmg/assets/images/infobox2.jpg" alt="">
-            <div class="person-info">
-                <h5 class="name">Namn</h5>
-                <hr>
-                <p class="position">Chef</p>
-                <p class="mail">chef@mail.se</p>
-                <p class="tel">073 444 44 44</p>
-            </div>
-        </div>
+        <?php
+        }
+        ?>
     </div>
 </div>

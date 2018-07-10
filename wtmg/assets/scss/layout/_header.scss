@@ -12,12 +12,11 @@ header{
         box-shadow: 0 2px 12px 3px rgba(0,0,0,0.05);
         .inner{
             color: $black !important;
-            .logo{
-                path{
-                    fill: #000;
-                    transition: 0.2s ease;
-
-                }
+            .logo1{
+                display: none;
+            }
+            .logo2{
+                display: block !important;
             }
             .mobile-nav-open{
                 .bars{
@@ -44,13 +43,23 @@ header{
         padding-bottom: 3px;
         height: 70px;
 
-        .logo{
+        .logo1{
             height: 34px;
             cursor: pointer;
             position: absolute;
             left: 0;
             top: 50%; 
             transform: translateY(-50%);
+        }
+        .logo2{
+            height: 34px;
+            cursor: pointer;
+            position: absolute;
+            left: 0;
+            top: 50%; 
+            transform: translateY(-50%);
+
+            display: none;
         }
         .desktop-nav{
             display: block;
@@ -73,7 +82,13 @@ header{
                         font-size: 15px;
                         padding-top: 4px;
                         margin-top: -4px;
+                        color: inherit;
+                        text-decoration: none;
                     }
+                }
+                .nav_item_current{
+                    border-bottom: 1px solid $green;
+                    padding-bottom: 2px;
                 }
             }
 
@@ -217,6 +232,32 @@ header{
                 top: 50%; 
                 transform: translate(-50%, -50%);
             }
+        }
+    }
+}
+
+.single-post,
+.single-service{
+    header{
+        background: rgba(255,255,255,1);
+        box-shadow: 0 2px 12px 3px rgba(0,0,0,0.05);
+        .inner{
+            .logo1{
+                display: none;
+            }
+            .logo2{
+                display: block;
+            }
+            .desktop-nav{
+                nav ul{
+                    li{
+                        a{
+                            color: #000 !important;
+                        }
+                    }
+                }
+            }
+
         }
     }
 }

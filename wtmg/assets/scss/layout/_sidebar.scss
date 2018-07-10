@@ -1,0 +1,45 @@
+.sidebar{
+    .contact{
+        height: 240px;
+        width: calc(100% - 40px);
+
+        background: #5E8291;
+
+        display: block;
+
+        padding: 20px;
+        color: #FFF;
+        margin-bottom: 20px;
+        h2{
+
+        }
+    }
+    .show-all{
+        h2{
+            font-size: 20px;
+            color: #000000;
+            letter-spacing: 0;
+            margin: 0;
+            a{
+                font-size: 20px;
+                color: #000000;
+                letter-spacing: 0;
+                margin: 0;
+                &:hover, &:focus{
+                    font-size: 20px;
+                color: #000000;
+                letter-spacing: 0;
+                margin: 0;
+                }
+            }
+           
+        }
+        border-bottom: 1px solid #ADCB08;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 972px){
+    .sidebar{
+        display: none;
+    }
+}

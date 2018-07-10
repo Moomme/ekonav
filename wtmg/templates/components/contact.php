@@ -1,20 +1,21 @@
-<div class="contact-inner center-text">
-    <h3 class="contact-input-text">Kontakta oss: </h3>
-    <div class="input-elements">
-        <div class="input-element">
-            <input type="text" placeholder="Namn">
-            <hr>
+<div class="main-inner">
+    <h3>Kontakta oss</h3>
+    <form action="<?= get_template_directory_uri(); ?>/mailer.php" method="post">
+        <div class="form-item">
+            <input name="name" type="text" placeholder="Namn" required> 
         </div>
-        <div class="input-element">
-            <input type="text" align="left" placeholder="Telefonnummer">
-            <hr>
+        <div class="form-item">
+            <input name="email" type="text" placeholder="Email" required> 
         </div>
-        <div class="input-element">
-            <input type="text" placeholder="Epostaddress">
-            <hr>
+        <div class="form-item">
+            <input name="phone" type="text" placeholder="Telefonnummer" required> 
         </div>
-    </div>
-    <div class="contact-input-btn button">
-        <a href="">Skicka</a>
-    </div>
+        <div class="form-item">
+        <input type="checkbox" name="policy"
+               value="accept" required/><label>Jag samtycker till inegritetspolicyn</label>
+        </div>
+
+    <input type="submit" value="Skicka">
+
+    </form>
 </div>
